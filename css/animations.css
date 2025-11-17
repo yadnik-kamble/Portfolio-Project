@@ -1,0 +1,30 @@
+/* simple scroll/fade animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* small hover lift */
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* tiny reveal of  text */
+@keyframes heroReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {  
+    opacity: 1;
+    transform: none;
+  }
+}
+.hero-overlay {
+  animation: heroReveal 0.9s ease 0.15s both;
+}

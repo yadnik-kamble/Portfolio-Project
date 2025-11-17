@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Yadnik Kamble</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <div class="brand">
+          <a href="index.html" class="logo">YADNIK</a>
+          <span class="tag">Video Editor</span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container section contact-section fade-in">
+        <h2 class="section-title">Hire / Contact</h2>
+
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form">
+            <label>
+              <span>Name</span>
+              <input name="name" type="text" placeholder="Your name" required />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+
+            <label>
+              <span>Project type</span>
+              <input
+                name="project"
+                type="text"
+                placeholder="Reel / Ad / Event / Short film"
+              />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Tell me about the project..."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="form-status" class="muted"></p>
+          </form>
+
+          <aside class="contact-info">
+            <h3>Contact Info</h3>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:yadnikkamble10484@gmail.com"
+                >yadnikkamble10484@gmail.com</a
+              >
+            </p>
+            <p><strong>Phone:</strong> +91 97690 45425</p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/yadnik-kamble-03bb0525a"
+                target="_blank"
+                rel="noopener"
+                >Yadnik Kamble</a
+              >
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/form.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

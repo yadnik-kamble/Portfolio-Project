@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects — Yadnik Kamble</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+<header class="header">
+  <nav class="nav container">
+    <div class="brand">
+      <a href="index.html" class="logo">YADNIK</a>
+      <span class="tag">Video Editor</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+  </nav>
+</header>
+
+<main>
+<section class="container section fade-in">
+
+  <h2 class="section-title">My Editing Projects</h2>
+
+  <!-- FILTER BUTTONS -->
+  <div class="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="reels">Reels</button>
+  </div>
+
+  <!-- VIDEO GRID -->
+  <div class="project-container">
+
+    <!-- VIDEO 1 -->
+    <article class="project-card" data-category="reels">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/1wR8oG9pF_4" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h3>Cinematic Edit — YouTube Reel</h3>
+        <p class="muted">A cinematic reel showcasing smooth transitions and colour grading.</p>
+      </div>
+    </article>
+
+    <!-- VIDEO 2 -->
+    <article class="project-card" data-category="reels">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/hmRGHc9m16s" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h3>SOME LOW VFX EDIT</h3>
+        <p class="muted"></p>
+      </div>
+    </article>
+
+    <!-- VIDEO 3 -->
+    <article class="project-card" data-category="reels">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/nwydoGJkihk" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h3> Car edit</h3>
+        <p class="muted">Smooth Speed  ramp movement & framing.</p>
+      </div>
+    </article>
+
+    <!-- VIDEO 4 -->
+    <article class="project-card" data-category="reels">
+      <div class="embed-wrap">
+        <iframe src="https://www.youtube.com/embed/w4Wn0sqjJzo" allowfullscreen></iframe>
+      </div>
+      <div class="card-body">
+        <h3>Dynamic Edit</h3>
+        <p class="muted">3d Typography edit .</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+</main>
+
+<script src="js/filter.js"></script>
+<script src="js/theme.js"></script>
+
+</body>
+</html>
