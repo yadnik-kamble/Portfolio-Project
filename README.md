@@ -1,61 +1,61 @@
-# 🎬 Yadnik Kamble — Video Editor Portfolio
+# Yadnik Kamble — Video Editor Portfolio
 
 A modern, responsive, and cinematic portfolio website showcasing my video editing, cinematography, and content creation work.  
-Designed & built using **pure HTML, CSS, and JavaScript**, and deployed using **GitHub Pages**.
+Designed and built using pure HTML, CSS, and JavaScript, and deployed using GitHub Pages.
 
 ---
 
-## 🔗 Live Site  
-👉 **https://yadnik-kamble.github.io/Portfolio-Project/**
+## Live Site
+https://yadnik-kamble.github.io/Portfolio-Project/
 
 ---
 
-## 📌 Features
+## Features
 
-### 🎥 Cinematic Hero Section
+### Cinematic Hero Section
 - Autoplay background video  
 - Smooth hero-text overlay  
 - Clear CTAs (Showreel, Projects)
 
-### 📁 Projects Page
+### Projects Page
 - YouTube reels/shorts embedded  
 - Responsive grid system  
 - Category-based filtering  
 - Scroll fade-in animations
 
-### 👤 About Section
+### About Section
 - Profile photo  
 - Short bio  
 - Skills showcase with badges  
 - Social links (Email, LinkedIn, Bento, Portfolio)
 
-### 🌙 Light + Dark Mode
+### Light and Dark Mode
 - One-click theme toggle  
 - Saves user preference using localStorage  
 
-### ✨ Smooth Animations
+### Smooth Animations
 - Fade-in on scroll  
 - Hero reveal animation  
 - Subtle hover transitions  
 
-### 📱 Fully Responsive
+### Fully Responsive
 - Works on all screen sizes  
 - Flexible layout for mobile, tablet, and desktop  
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology      | Purpose |
 |----------------|---------|
-| **HTML5**      | Structure & content |
-| **CSS3**       | Styling, responsive design, animations |
-| **JavaScript** | Filtering, theme toggle, scroll effects |
-| **GitHub Pages** | Deployment & hosting |
+| HTML5          | Structure and content |
+| CSS3           | Styling, responsive design, animations |
+| JavaScript     | Filtering, theme toggle, scroll effects |
+| GitHub Pages   | Deployment and hosting |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 PORTFOLIO
@@ -83,30 +83,23 @@ PORTFOLIO
 ├── contact.html
 ├── index.html
 └── projects.html
-
-```  
-
+```
 
 ---
 
-## 📬 Contact Me
+## Contact
 
-- **Email:** yadnikkamble10484@gmail.com  
-- **Phone:** +91 97690 45425  
-- **LinkedIn:** https://linkedin.com/in/yadnik-kamble-03bb0525a  
-- **Instagram:** https://instagram.com/rckccemsr  
+- Email: yadnikkamble10484@gmail.com  
+- Phone: +91 97690 45425  
+- LinkedIn: https://linkedin.com/in/yadnik-kamble-03bb0525a  
+- Instagram: https://instagram.com/rckccemsr  
 
 ---
 
-## ⭐ Support
+## Support
 
-If you liked this portfolio or found it useful:
+If you found this portfolio useful:
 
-- ⭐ Star this repo  
-- 🧭 Explore my GitHub profile  
-- 📨 Connect with me on LinkedIn  
-
-
-
-
-
+- Star the repository  
+- Explore my GitHub profile  
+- Connect with me on LinkedIn  
